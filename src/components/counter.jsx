@@ -16,6 +16,7 @@ class Counter extends Component {
             <button className = {this.state.btnclasses} onClick={this.countIncrement}> + </button>
             <button className = {this.state.btnclasses} onClick={this.countDecrement}> - </button>
             <button className = {this.state.btnclasses} onClick={this.countIncrement}> Delete </button>
+            <button className = {this.state.btnclasses} onClick={this.countIncrement}> update </button>
             <ul>
              {this.state.tags.map(tag => <li key={tag}> {tag}</li>)} 
             </ul>
